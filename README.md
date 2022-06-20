@@ -9,14 +9,13 @@ CICD - Integration  - github actions
 
 Under /tests folder we have spec.ts file which contains test steps written in type script.
 We will be Transpiling  typescript in to javascript and then .js files will be executed during the test. 
-All the ts to js Transpiled files are stored under /javaScriptFiles
+All the .ts to .js Transpiled files are stored under /javaScriptFiles
 All the dependencies are managed using package.json
 
 Test Execution
 In the root folder either using command prompt or any IDE preferably (VS CODE) run below command to execute tests on different browsers.
 By default the test will run in parallel and headless mode. 
 npm i  - to install all the latest npm dependencies 
-
 npm run tcs - code compile
 npm run test - To executed tests on both browsers in parallel mode
 npm run chrome - To execute tests in chrome alone
