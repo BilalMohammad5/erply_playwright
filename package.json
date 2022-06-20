@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc --incremental -p tsconfig.json",
-    "test": "playwright test -c javaScriptFiles",
+    "test": "playwright test -c javaScriptFiles  --reporter=html",
     "chrome": "npx playwright test --project=chromium --reporter=html",
-    "report": " npx playwright show-report"
+    "report": " npx playwright show-report",
+    "allure":"npx playwright test --reporter=line,allure-playwright"
   },
   "keywords": [],
   "author": "BILAL MOHAMMAD",

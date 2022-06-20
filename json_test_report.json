@@ -11,11 +11,11 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/bilal/Desktop/automation/KN_Playwright/kuehne_nagel_playwright/test-results",
+        "outputDir": "c:/Users/bilal/Desktop/automation/erply/erply_playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "chromium",
-        "testDir": "C:/Users/bilal/Desktop/automation/KN_Playwright/kuehne_nagel_playwright/tests",
+        "testDir": "c:/Users/bilal/Desktop/automation/erply/erply_playwright/tests",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -23,11 +23,11 @@
         "timeout": 100000
       },
       {
-        "outputDir": "C:/Users/bilal/Desktop/automation/KN_Playwright/kuehne_nagel_playwright/test-results",
+        "outputDir": "c:/Users/bilal/Desktop/automation/erply/erply_playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "firefox",
-        "testDir": "C:/Users/bilal/Desktop/automation/KN_Playwright/kuehne_nagel_playwright/tests",
+        "testDir": "c:/Users/bilal/Desktop/automation/erply/erply_playwright/tests",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -61,7 +61,7 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "C:/Users/bilal/Desktop/automation/KN_Playwright/kuehne_nagel_playwright/tests",
+    "rootDir": "c:/Users/bilal/Desktop/automation/erply/erply_playwright/tests",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -69,26 +69,26 @@
     "workers": 2,
     "webServer": null,
     "_attachments": [],
-    "_configDir": "C:\\Users\\bilal\\Desktop\\automation\\KN_Playwright\\kuehne_nagel_playwright",
-    "_testGroupsCount": 2,
+    "_configDir": "c:\\Users\\bilal\\Desktop\\automation\\erply\\erply_playwright",
+    "_testGroupsCount": 1,
     "_screenshotsDir": ""
   },
   "suites": [
     {
-      "title": "collection_profile_validation.spec.ts",
-      "file": "collection_profile_validation.spec.ts",
+      "title": "productSearch.spec.ts",
+      "file": "productSearch.spec.ts",
       "line": 0,
       "column": 0,
       "specs": [],
       "suites": [
         {
-          "title": "validating _book_added_to__collection",
-          "file": "collection_profile_validation.spec.ts",
-          "line": 8,
+          "title": "Home_Page",
+          "file": "productSearch.spec.ts",
+          "line": 4,
           "column": 6,
           "specs": [
             {
-              "title": "added_books",
+              "title": "Product_Search",
               "ok": true,
               "tags": [],
               "tests": [
@@ -101,7 +101,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 66902,
+                      "duration": 39584,
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
@@ -109,17 +109,17 @@
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Users\\bilal\\Desktop\\automation\\KN_Playwright\\kuehne_nagel_playwright\\test-results\\collection_profile_validation-validating-book-added-to-collection-added-books-chromium\\video.webm"
+                          "path": "c:\\Users\\bilal\\Desktop\\automation\\erply\\erply_playwright\\test-results\\productSearch-Home-Page-Product-Search-chromium\\video.webm"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\bilal\\Desktop\\automation\\KN_Playwright\\kuehne_nagel_playwright\\test-results\\collection_profile_validation-validating-book-added-to-collection-added-books-chromium\\trace.zip"
+                          "path": "c:\\Users\\bilal\\Desktop\\automation\\erply\\erply_playwright\\test-results\\productSearch-Home-Page-Product-Search-chromium\\trace.zip"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\bilal\\Desktop\\automation\\KN_Playwright\\kuehne_nagel_playwright\\test-results\\collection_profile_validation-validating-book-added-to-collection-added-books-chromium\\test-finished-1.png"
+                          "path": "c:\\Users\\bilal\\Desktop\\automation\\erply\\erply_playwright\\test-results\\productSearch-Home-Page-Product-Search-chromium\\test-finished-1.png"
                         }
                       ]
                     }
@@ -127,61 +127,9 @@
                   "status": "expected"
                 }
               ],
-              "file": "collection_profile_validation.spec.ts",
-              "line": 15,
-              "column": 3
-            }
-          ]
-        },
-        {
-          "title": "validating _book_added_to__collection",
-          "file": "collection_profile_validation.spec.ts",
-          "line": 8,
-          "column": 6,
-          "specs": [
-            {
-              "title": "added_books",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 100000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 79859,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\bilal\\Desktop\\automation\\KN_Playwright\\kuehne_nagel_playwright\\test-results\\collection_profile_validation-validating-book-added-to-collection-added-books-firefox\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\bilal\\Desktop\\automation\\KN_Playwright\\kuehne_nagel_playwright\\test-results\\collection_profile_validation-validating-book-added-to-collection-added-books-firefox\\trace.zip"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\bilal\\Desktop\\automation\\KN_Playwright\\kuehne_nagel_playwright\\test-results\\collection_profile_validation-validating-book-added-to-collection-added-books-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "collection_profile_validation.spec.ts",
-              "line": 15,
-              "column": 3
+              "file": "productSearch.spec.ts",
+              "line": 13,
+              "column": 5
             }
           ]
         }
